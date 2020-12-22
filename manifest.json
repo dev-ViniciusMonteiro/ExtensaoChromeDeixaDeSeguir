@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "BOT-DEIXAR-SEGUIR-INSTAGRAM",
+    "description": "BOT-DEIXAR-SEGUIR-INSTAGRAM",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.instagram.com/*"
+            ],
+            "js": [
+                "index.js"
+            ],
+            "css":[
+                "style.css"
+            ]
+        }
+    ]
+}
